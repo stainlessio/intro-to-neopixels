@@ -11,7 +11,18 @@
 
 1. Download and install [arduino ide 1.6.10](https://www.arduino.cc/en/Main/Software)
 
-## Step 2. Add Adafruit boards
+## Step 2. Make Adafruit boards available
+
+1. Start the Arduino IDE
+2. Navigate to `Arduino->preferences`
+   ![menus to navigate to preferences](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/preferences.png)
+3. Click the double window button next to `Additional Boards Manager Url`
+   ![preferences dialog box](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/preferences-dialog.png)
+4. Add `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json` into the text box
+   ![additional boards url](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/board-url.png)
+5. Click `Ok` to dismiss the two dialog boxes
+
+## Step 3. Add Adafruit boards
 
 1. Start the Arduino IDE
 2. Navigate to `tools->board->board manager`
@@ -20,7 +31,7 @@
    ![board manager with adafruit avr boards](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/add-boards.png)
 4. Close the board manager
 
-## Step 3. Load the Adafruit Neopixel Library
+## Step 4. Load the Adafruit Neopixel Library
 
 1. Navigate to `sketch->include library->Manage Libraries...`
    ![menus to navigate to library manager](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/library-manager.png)
@@ -28,14 +39,14 @@
    ![library manager with adafruit neopixel library](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/load-library.png)
 3. Close the library manager
 
-## Step 4. Connecting the board and leds
+## Step 5. Connecting the board and leds
 
 1. Connect the yellow wire to `DIN` on the neopixel
 2. Connect the yellow wire to `#0` on the trinket
 3. Connect the red wire to `5v` on the neopixel and trinket
 5. Connect the black wire to GND on the neopixel and trinket
 
-## Step 5. Prep the firmware
+## Step 6. Prep the firmware
 
 1. Open `strandtest` by going to `file->sketchbook->libraries->Adafruit_Neopixel->standtest`
    ![menus showing where to find strandtest](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/standtest.png)
@@ -44,7 +55,7 @@
    ![where the find the code changes](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/code-changes.png)
 4. Save the file, you will be prompted to save it to a new location
 
-## Step 6. Upload the firmware to the trinket
+## Step 7. Upload the firmware to the trinket
 
 0. Under `tools->board` select `Trinket 8Mhz` under the `adafruit boards` section
 1. Click the `compile` button which looks like a checkmark
