@@ -39,6 +39,11 @@
    ![library manager with adafruit neopixel library](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/load-library.png)
 3. Close the library manager
 
+## Step 4.5. Install Drivers (Windows Online)
+
+1. Download the drivers from [adafruit](http://bit.ly/2ac9S3m)
+2. Install the drivers
+
 ## Step 5. Connecting the board and leds
 
 1. Connect the yellow wire to `DIN` on the neopixel
@@ -58,6 +63,7 @@
 ## Step 7. Upload the firmware to the trinket
 
 0. Under `tools->board` select `Trinket 8Mhz` under the `adafruit boards` section
+1. Under `tools->programmer` select `USBTinyISP`
 1. Click the `compile` button which looks like a checkmark
 2. Once the compile is done, plug the trinket into your usb cable
 3. Wait for the red light to "breath"
