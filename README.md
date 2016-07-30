@@ -53,7 +53,7 @@
 
 ## Step 6. Prep the firmware
 
-1. Open `strandtest` by going to `file->sketchbook->libraries->Adafruit_Neopixel->standtest`
+1. Open `strandtest` by going to `file->Examples->Adafruit_Neopixel->standtest`
    ![menus showing where to find strandtest](https://raw.githubusercontent.com/stainlessio/intro-to-neopixels/master/images/standtest.png)
 2. Find the `#define PIN` line and change the number to `0`
 3. Find the line that contains `strip = Adafruit_Neopixel` and set the first argument to `8`
