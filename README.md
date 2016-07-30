@@ -10,6 +10,8 @@
 ## Step 1. Install the IDE
 
 1. Download and install [arduino ide 1.6.10](https://www.arduino.cc/en/Main/Software)
+2. Pick the installer for your OS
+3. On the next page, click "just download"
 
 ## Step 2. Make Adafruit boards available
 
